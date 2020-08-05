@@ -23,7 +23,9 @@ else
 		$iso1 = "500";
 	}
 
+?>
 
+<?php
 
 if(isset($_GET['FPS']))
 	{
@@ -35,7 +37,9 @@ else
 		$FPS1 = "30";
 	}
 
+?>
 
+<?php
 if(isset($_GET['SS']))
 	{
 		echo "&nbsp;&nbsp;&nbsp;&nbsp;ShutterSpeed:",  $_GET['SS'];
@@ -45,7 +49,9 @@ else
 	{
 		$SS1 = "22000";
 	}
+?>
 
+<?php
 if(isset($_GET['EV']))
         {
                 echo "&nbsp;&nbsp;&nbsp;&nbsp;EV:",  $_GET['EV'];
@@ -56,7 +62,9 @@ else
                 $EV1 = "0";
         }
 
+?>
 
+<?php
 if(isset($_GET['H']))
 	{
 		echo "&nbsp;&nbsp;&nbsp;&nbsp;HEIGHT:",  $_GET['H'];
@@ -67,7 +75,9 @@ else
 		$H1 = "1080";
 	}
 
+?>
 
+<?php
 if(isset($_GET['W']))
 	{
 		echo "&nbsp;&nbsp;&nbsp;&nbsp;WIDTH:",  $_GET['W'];
@@ -78,7 +88,9 @@ else
 		$W1 = "1920";
 	}
 
+?>
 
+<?php
 if(isset($_GET['WB']))
         {
                 echo "&nbsp;&nbsp;&nbsp;&nbsp;WB:",  $_GET['WB'];
