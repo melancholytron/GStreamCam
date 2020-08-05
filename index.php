@@ -116,7 +116,7 @@ WIDTH:<input type="text" size="5" name="W"  value="<?php echo $W1; ?>">
 	<option value="cloud">cloud</option>
 	<option value="shade">shade</option>
 	<option value="tungsten">tungsten</option>
-	<option value="fluorescent">fluorescent</option>
+        <option value="fluorescent">fluorescent</option>
 	<option value="incandescent">incandescent</option>
 	<option value="flash">flash</option>
 	<option value="horizon">horizon</option>
@@ -210,7 +210,7 @@ function kill() {
                 class="button" value="Kill" />
         <input type="submit" name="button3"
                 class="button" value="Preview" />
-
+ 
     </form>
 </head>
 </html>
